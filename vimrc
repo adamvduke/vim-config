@@ -1,13 +1,9 @@
 call pathogen#infect()
 filetype plugin indent on
 
-colorscheme solarized
 let g:solarized_termcolors=256
-if has('gui_running')
-  set background=dark
-else
-  set background=light
-endif
+
+colorscheme Tomorrow-Night-Eighties
 
 let g:Powerline_symbols = 'fancy'
 

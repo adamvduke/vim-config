@@ -19,3 +19,4 @@ endif
 
 map <Leader>n <plug>NERDTreeTabsToggle<CR>
 map <C-t> :CtrlP<CR>
+set autoread

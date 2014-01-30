@@ -7,6 +7,8 @@ Install
 ```bash
   git clone https://github.com/adamvduke/vim-config.git ~/.vim
   cd ~/.vim
+  git submodule init
+  git submodule update
   ln -s vimrc ~/.vimrc
   ln -s gvimrc ~/.gvimrc
 ```

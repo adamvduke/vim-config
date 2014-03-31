@@ -9,8 +9,8 @@ Install
   cd ~/.vim
   git submodule init
   git submodule update
-  ln -s vimrc ~/.vimrc
-  ln -s gvimrc ~/.gvimrc
+  ln -s ~/.vim/vimrc ~/.vimrc
+  ln -s ~/.vim/gvimrc ~/.gvimrc
 ```
 
 Download and install a powerline font: https://github.com/fncll/vimstuff/tree/master/powerline-fonts

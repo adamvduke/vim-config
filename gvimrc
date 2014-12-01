@@ -2,7 +2,7 @@
 if has("gui_macvim")
   set guioptions=egmrt
   macmenu &File.New\ Tab key=<D-S-t>
-  set guifont=Menlo\ for\ Powerline:h16
+  set guifont=Menlo\ for\ Powerline:h14
 endif
 
 map <D-Down> <C-W><Down>
